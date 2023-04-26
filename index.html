@@ -6,16 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background-color: palegreen;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        a {
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            color: black;
+           /* text-align: center; */
+        }
+
+
+        #home {
+            color: brown;
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        #content {
+            color: brown;
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        table-contents {
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        h2 {
+            color: brown;
+            font-size: 32px;
+            font-weight: 600;
+        }
+        
+        caption {
+            font-size: 20px;
+            font-weight: 600;
+            padding: 20px 0px;
+        }
+
         table {
             text-align: center;
             width: 80%;
-            border: 2px solid blue;
+            border: 1px solid ;
+            border-radius: 10px;
             padding: 20px 20px;
             margin: 30px 150px;
-
-        }
+      }
         th, td {
-            border: 2px solid blueviolet;
+            border: 2px solid purple;
+            border-radius: 8px
+        }
+
+        th {
+            color: brown;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        td {
+            font-size: 18px;
+            font-weight: 400;
         }
     </style>
 </head>
@@ -31,9 +90,9 @@
             more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
     </div>
-    <div id="content">
-        <h2>Table of Contents</h2>
-        <div>
+    <div>
+        <h2 id="content">Table of Contents</h2>
+        <div class="table-contents">
             <h3>Information about Mountain</h3>
               <h4>Rank</h4>
               <h4>Name</h4>
@@ -41,13 +100,6 @@
               <h4>Height</h4>
               <h4>Location</h4>
               <h4>First Ascent</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and 
-                more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
         </div>
     </div>
     <div>
